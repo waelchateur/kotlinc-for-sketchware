@@ -102,7 +102,7 @@ dependencies {
 publishing {
     publications {
         shadow(MavenPublication) {
-            groupId = 'pro.sketchware'
+            groupId = 'com.github.waelchateur'
             artifactId = project.name
             version = '2.1.21'
             artifact(tasks.shadowJar) {
