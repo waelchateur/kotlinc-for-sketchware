@@ -90,7 +90,7 @@ shadowJar {
         exclude(dependency("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0"))
         exclude(dependency("org.jetbrains.kotlin:kotlin-script-runtime:2.1.21"))
      }
-    archiveBaseName.set("kotlinc")
+    archiveFileName.set("kotlinc.jar")
     archiveClassifier.set("")
     archiveVersion.set("")                  
 }
