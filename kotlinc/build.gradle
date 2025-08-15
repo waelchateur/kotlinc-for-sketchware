@@ -77,7 +77,6 @@ shadowJar {
     exclude 'kotlin/**'
     exclude '**/*org/jetbrains/annotations/Nls*'
     exclude 'com/google/**'
-    exclude 'dalvik/**'
 
 
     dependencies {
